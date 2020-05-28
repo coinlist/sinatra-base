@@ -1,0 +1,46 @@
+# Ignore bundler config.
+/.bundle
+
+# Mac files
+.DS_Store
+
+# Local environment vars.
+.env.local
+./.env.local
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/public/assets
+!/public/documents/*
+.byebug_history
+.pry_history
+
+# We keep track of when the last 'bundle install' and 'npm install' happened
+# locally in these
+/.last_bundle_installed
+/.last_npm_installed
+/.last_migrate
+/.capistrano/
+.sass-cache
+.last_bootstrap_version_run
+
+# Bundle
+vendor/bundle*
+
+# RubyMine Configs
+.idea
+
+# rubocop reports
+/reports/html/*html
+/reports/xml/*xml
+
+# Ignore code coverage reports
+/coverage/
+
+# Scratch file to put any kind of code
+/scratch.rb
+
+coverage
